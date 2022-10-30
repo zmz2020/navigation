@@ -24,7 +24,7 @@ const viteConfig =  defineConfig((mode: any) =>{
     css: {
       preprocessorOptions: {
         scss: {
-          additionalData: '@import "@/assets/main.scss";',
+          additionalData: '@import "@/theme/main.scss";',
         }
       }
     }
